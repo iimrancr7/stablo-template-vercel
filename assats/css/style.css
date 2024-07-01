@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    width: 80%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    margin-top: 25px;
+}
+.main-nav{
+    margin-left: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul li {
+    margin-left: 40px;
+}
+ul li:first-child {
+    margin-left: 0;
+}
+a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #525252;
+}
+li :hover{
+    color: #2563EB;
+}
+
+.new{
+    background: #DBEAFE;
+    color: #2563EB;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+div .social {
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    width: 150px;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5px;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    background: #ffffff;
+}
+.social img {
+    width: 16px;
+    height: auto;
+    border-radius: 2px;
+}
+footer {
+    width: 100%;
+}
+.gap {
+    height: 500px;
+    border-bottom: 1px solid #ebebeb93;
+}
+.main-copy {
+    padding: 50px 0;
+}
+.copyright, .copyright-d{
+    display: flex;
+    justify-content: center;
+}
+.copyright-d a {
+    margin-top: 5px;
+    color: #737373 ;
+}
+.f-side{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.color-mode {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    justify-content: space-between;
+}
+.color-option {
+    border: none;
+}
+.brtght {
+    opacity: 50%;
+    width: 16px;
+}
+.saide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+.saide a {
+    color: #ffffff;
+    align-items: center;
+}
+.up-arrow {
+    border-right: 1px solid white;
+    margin-right: 5px;
+    border-width: 100%;
+}
+.Powered {
+    font-size: 11px;
+}
+.Powered span {
+    font-weight: 600;
+}
